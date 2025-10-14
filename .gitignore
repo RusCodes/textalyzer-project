@@ -1,0 +1,10 @@
+# Python cache files
+__pycache__/
+
+# VS Code settings
+.vscode/
+
+# Dummy files created by the script
+large_document.txt
+test_doc.txt
+empty.txt
