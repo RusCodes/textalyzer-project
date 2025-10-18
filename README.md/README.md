@@ -4,15 +4,15 @@ Textalyzer is a small, memory-efficient Python library for basic text analysis. 
 
 ## Features
 
--   **Memory Efficient**: Uses generators to process large files line-by-line.
--   **Flexible API**: Analyze text directly from a file path or a string.
--   **Core Analyses**:
+-   Memory Efficient: Uses generators to process large files line-by-line.
+-   Flexible API: Analyze text directly from a file path or a string.
+-   Core Analyses:
     -   Count total words.
     -   Calculate word frequencies.
--   **Built-in Logging**: Provides informative logs about its operations.
--   **Custom Exceptions**: Raises `SourceNotFoundError` for missing files.
--   **Well-Documented**: Includes clear docstrings for all classes and methods.
--   **Unit Tested**: Comes with a suite of unit tests to ensure reliability.
+-   Built-in Logging: Provides informative logs about its operations.
+-   Custom Exception: Raises `SourceNotFoundError` for missing files.
+-   Well-Documented: Includes clear docstrings for all classes and methods.
+-   Unit Tested: Comes with a suite of unit tests to ensure reliability.
 
 ## Installation
 
@@ -22,7 +22,7 @@ Currently, this is a local module. To use it, simply place the `textalyzer` dire
 
 Here's a quick example of how to use `Textalyzer`.
 
-```python
+python
 from textalyzer import TextAnalyzer, SourceNotFoundError
 
 # --- Analyzing a File ---
